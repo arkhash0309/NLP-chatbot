@@ -1,0 +1,36 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting!", "Good to see you again!", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting!", "Have a nice day!", "Bye! Come again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+    },
+    {"tag": "hours",
+     "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+     "responses": ["We're open every day 8am-5pm.", "Our hours are 8am-5pm every day."]
+    },
+    {"tag": "contact",
+     "patterns": ["How can I contact you?", "How can i get a quotation?","Do you have a contact number?", "What's your phone number?", "What's your email?", "What are your charges?", "How are your pricing rates?"],
+     "responses": ["Please navigate to the Contact us page for more information.", "Please reach out to us on the Contact Us page regarding pricings. We will get back to you within a working day!", "Please submit your details on the Contact Us page and we will get back to you requesting your requirements!"]
+    },
+    {"tag": "services",
+     "patterns": ["What services do you provide?", "What do you offer?", "What can you do for me?"],
+     "responses": ["We help predict the sales of your supermarket/ grocery store suing past data!", "We provide sales prediction services for your supermarket/ grocery store using past data!", "We offer sales prediction services for your supermarket/ grocery store using past data!"]
+    },
+    {"tag": "payments",
+     "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+     "responses": ["We accept VISA, Mastercard and AMEX.", "We accept most major credit cards."]
+    },
+    {"tag": "opentoday",
+     "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+     "responses": ["We're open on weekdays from 9am-9pm.", "Our hours are 9am-9pm on weekdays."]
+    }
+]
+}
